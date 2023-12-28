@@ -1,0 +1,77 @@
+<link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+
+
+
+<!-- Slider main container -->
+<section class="product_slider">
+  <div class="page-width">
+    <h2>{{ section.settings.heading }}</h2>
+    <div class="swiper my-swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+      {% for product in section.settings.collection.products %}
+        <div class="swiper-slide">
+          <img src="{{ product.featured_image | image_url}}"/>
+          <h4>{{ product.title }}<br>{{ product.description }}</h4>
+        </div>
+      {% endfor %}
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "product-slider",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Heading",
+        "id": "heading"
+      },
+      {
+        "type": "collection",
+        "label": "Select Collection",
+        "id": "collection"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Slider"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+  const swiper = new Swiper('.my-swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+    slidesPerView: 2,
+      spaceBetween: 20,
+autoplay: true,
+      grabCursor: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+    dots: 3,
+});
+{% endjavascript %}

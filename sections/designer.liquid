@@ -1,0 +1,39 @@
+
+
+<section>
+  <div class="page-width">
+    {% for mydesigner in shop.metaobjects.designer.values %}
+    <div class="flex-wrapper">
+      <div class="left-col">
+      <h2>{{ mydesigner.name }}</h2>
+        <p>{{ mydesigner.description }}</p>
+      </div>
+      <div class="right-col">
+        <img src="{{ mydesigner.profile | image_url }}">
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Designer_section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Designer"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
