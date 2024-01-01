@@ -118,13 +118,6 @@
             "title": "Slide Title",
             "img": "shopify:\/\/shop_images\/11.jpg"
           }
-        },
-        "d30e3cc1-db40-4f69-b3bb-808f0e8fe3ca": {
-          "type": "text",
-          "settings": {
-            "title": "Slide Title",
-            "img": "shopify:\/\/shop_images\/5.jpg"
-          }
         }
       },
       "block_order": [
@@ -134,8 +127,7 @@
         "d9fe5137-7831-418c-9daf-4521dd6b2602",
         "20b8ab79-d1a4-4318-a4c2-9f40f40998a5",
         "94ec8918-9e9c-4463-bcda-1c7afabf11d0",
-        "0aa1cfaf-323f-44d9-989b-669665defab2",
-        "d30e3cc1-db40-4f69-b3bb-808f0e8fe3ca"
+        "0aa1cfaf-323f-44d9-989b-669665defab2"
       ],
       "settings": {
         "heading": "swiper Slider",
