@@ -1,2 +1,5 @@
 - color swatches
 - image swatches
+- metaobject
+- metaobject with metafield
+- metaobject template
