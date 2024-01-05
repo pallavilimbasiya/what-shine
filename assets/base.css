@@ -2421,7 +2421,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
     grid-template-columns: 2.1fr auto 1.5fr 0.5fr;
     column-gap: 2rem;
   }
-
+.header__inline-menu2 {
+  grid-area: menu;
+  justify-self: flex-end
+}
   .header--middle-center a.header__heading-link {
     text-align: center;
   }
