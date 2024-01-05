@@ -3,4 +3,4 @@
 - metaobject
 - metaobject with metafield
 - metaobject template
-- two custom dynamic menu on header (menu , logo, menu2)
+- two separate custom dynamic menu on header (menu , logo, menu2)
