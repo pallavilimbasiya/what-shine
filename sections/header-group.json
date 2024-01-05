@@ -28,6 +28,17 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "ce6661ab-b1e3-4193-a69f-85e0524901e5": {
+          "type": "text",
+          "settings": {
+            "menu": "nav-two"
+          }
+        }
+      },
+      "block_order": [
+        "ce6661ab-b1e3-4193-a69f-85e0524901e5"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
