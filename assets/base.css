@@ -2433,8 +2433,11 @@ product-info .loading__spinner:not(.hidden) ~ *,
   }
 
   .header--top-center.drawer-menu {
-    grid-template-areas: 'left-icons heading icons';
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: 'left-icons heading menu icons';
+    grid-template-columns: 1fr auto 1fr 1fr;
+  }
+  .header__inline-menu2 {
+    grid-area: menu
   }
 
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
