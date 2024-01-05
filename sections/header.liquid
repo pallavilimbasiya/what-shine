@@ -236,7 +236,7 @@
     {%- endif -%}
 
     {% for block in section.blocks%}
-      {% if block.seetings.menu  != blank%}
+      {% if block.settings.menu  != blank%}
         {% render "custom-dropdown-menu" %}
         {% endif %}
     {% endfor %}
