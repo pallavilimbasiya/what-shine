@@ -4,10 +4,10 @@
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
-
+{% for block in section.blocks %}
 <nav class="header__inline-menu2">
   <ul class="list-menu list-menu--inline" role="list">
-    {%- for link in section.settings.menu.links -%}
+    {%- for link in block.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
           <header-menu>
@@ -101,3 +101,4 @@
     {%- endfor -%}
   </ul>
 </nav>
+{% endfor %}
