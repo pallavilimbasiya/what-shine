@@ -236,7 +236,9 @@
     {%- endif -%}
 
     {% for block in section.blocks%}
-      {{ block.settings.menu }}
+      {% if block.seetings.menu  != blank%}
+        {% render "custom-dropdown-menu" %}
+        {% endif %}
     {% endfor %}
   
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
