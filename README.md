@@ -4,3 +4,4 @@
 - metaobject with metafield
 - metaobject template
 - two separate custom dynamic menu on header (menu , logo, menu2)
+- compare-price percentage gap difference show on product badge
