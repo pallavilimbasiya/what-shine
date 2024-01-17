@@ -2,8 +2,53 @@
   "type": "custom.signup",
   "name": "sign-up",
   "sections": {
+    "rich_text_qXfRG9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MaqVha": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Sign Up For Newsletter<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_rjD4YW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_aaFE3d": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MaqVha",
+        "text_rjD4YW",
+        "button_aaFE3d"
+      ],
+      "custom_css": [
+        "{margin-top: 50px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 52
+      }
+    }
   },
   "order": [
-
+    "rich_text_qXfRG9"
   ]
 }

@@ -144,6 +144,9 @@
     },
     "e1435ded-1977-448a-81ea-19632e1d2b0a": {
       "type": "designer",
+      "custom_css": [
+
+      ],
       "settings": {
       }
     }
