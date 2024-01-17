@@ -296,7 +296,9 @@
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
+    {% unless page.name == 'contact' %}
     {% sections 'sign-up' %}
+      {% endunless %}
     {% sections 'footer-group' %}
 
     <ul hidden>
