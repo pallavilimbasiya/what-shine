@@ -1,6 +1,6 @@
 {
-  "type": "header",
-  "name": "Group name",
+  "type": "custom.signup",
+  "name": "sign-up",
   "sections": {
   },
   "order": [
