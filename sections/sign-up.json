@@ -1,6 +1,6 @@
 {
   "type": "custom.signup",
-  "name": "sign-up",
+  "name": "Sign Up",
   "sections": {
     "rich_text_qXfRG9": {
       "type": "rich-text",
