@@ -13,14 +13,14 @@
         "template--15300141645891__d201dac5-71a0-4eb3-8533-7aeba0f7d8ce-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>{{ metaobject.description | metafield_tag }}<\/p>"
           }
         },
         "template--15300141645891__d201dac5-71a0-4eb3-8533-7aeba0f7d8ce-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "{{ metaobject.system.url }}",
+            "button_label": "",
+            "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -33,6 +33,7 @@
         "template--15300141645891__d201dac5-71a0-4eb3-8533-7aeba0f7d8ce-text-1",
         "template--15300141645891__d201dac5-71a0-4eb3-8533-7aeba0f7d8ce-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -44,12 +45,52 @@
     },
     "639f4880-eb3c-48ff-b216-aa8a1de9ac0c": {
       "type": "designer",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "image_with_text_izqR47": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jAtQLJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobject.name.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_t6yhm7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jAtQLJ",
+        "text_t6yhm7"
+      ],
+      "settings": {
+        "image": "{{ metaobject.profile.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "d201dac5-71a0-4eb3-8533-7aeba0f7d8ce",
-    "639f4880-eb3c-48ff-b216-aa8a1de9ac0c"
+    "639f4880-eb3c-48ff-b216-aa8a1de9ac0c",
+    "image_with_text_izqR47"
   ]
 }
