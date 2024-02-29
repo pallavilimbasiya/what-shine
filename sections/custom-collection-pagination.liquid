@@ -1,6 +1,69 @@
+{% comment %}
+  {%- paginate collection by 3 -%}
+
+    {% for block in section.blocks %}
+      {% assign selctedcollection = block.settings.mycollection %}
+
+    {% for collection in selctedcollection %}
+      <h2>{{ collection.title }}</h2>
+      <img src="{{ collection.featured_image }}">
+    {% endfor %}
+    {%- if paginate.pages > 1 -%}
+      {% render 'pagination', paginate: paginate, anchor: '' %}
+    {%- endif -%}
+
+
+      {% endfor %}
+  {%- endpaginate -%}
+{% endcomment %}
+
+{%- paginate collections by 3 -%}
+  {% for collection in collections %}
+    {{ collection.title }}
+
+    {% assign allcellection = collection.title %}
+
+    {% for block in section.blocks %}
+      {% assign selected = block.settings.mycollection.title %}
+
+      {% if allcellection == selected %}
+        {{ selected }}
+        <br>
+      {% endif %}
+        {%- if paginate.pages > 1 -%}
+      {% render 'pagination', paginate: paginate, anchor: '' %}
+    {%- endif -%}
+     
+    {% endfor %}
+    
+  {% endfor %}
+
+ {%- endpaginate -%}
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+    "name": "collection pagination",
+    "settings": [],
+    "blocks":[
+      {
+        "type": "text",
+        "name": "collection",
+        "settings": [
+          {
+             "type": "collection",
+            "id": "mycollection",
+            "label": "select collection"
+          }
+
+        ]
+      }
+    ],
+   "presets": [
+    {
+      "name": "ct collection pagination",
+      "category": "Text"
+    }
+  ]
+}
 {% endschema %}
