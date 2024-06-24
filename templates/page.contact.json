@@ -38,7 +38,7 @@
     "custom_section_tPhLrc": {
       "type": "custom-section",
       "settings": {
-        "custom_text": "<p>{{ page.title }}<\/p>"
+        "custom_text": ""
       }
     }
   },
