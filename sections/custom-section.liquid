@@ -1,3 +1,4 @@
+<!-- Custom Section Schema -->
 {% schema %}
 {
   "name": "Custom Section",
@@ -15,12 +16,13 @@
   ],
   "presets": [
     {
-      "name": "Custom Section"
+      "name": "Custom Section Preset"
     }
   ]
 }
 {% endschema %}
 
+<!-- Custom Section HTML -->
 <div class="custom-section">
   <!-- Dynamic title -->
   <h2>{{ section.settings.custom_text }}</h2>
