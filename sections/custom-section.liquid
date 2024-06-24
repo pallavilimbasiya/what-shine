@@ -1,6 +1,32 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_text",
+      "label": "Custom Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_image",
+      "label": "Custom Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Section"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="custom-section">
+  <!-- Dynamic title -->
+  <h2>{{ section.settings.custom_text }}</h2>
+
+  <!-- Dynamic image -->
+  {% if section.settings.custom_image %}
+    <img src="{{ section.settings.custom_image | img_url: '500x' }}" alt="Custom Image">
+  {% endif %}
+</div>
