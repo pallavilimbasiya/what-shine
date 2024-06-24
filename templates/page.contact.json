@@ -38,7 +38,7 @@
     "custom_section_tPhLrc": {
       "type": "custom-section",
       "settings": {
-        "custom_text": ""
+        "custom_text": "<p>{{ shop.brand.short_description }}{{ shop.brand.slogan }}<\/p>"
       }
     }
   },
