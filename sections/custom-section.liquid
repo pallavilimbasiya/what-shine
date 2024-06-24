@@ -4,7 +4,7 @@
   "name": "Custom Section",
   "settings": [
     {
-      "type": "text",
+      "type": "richtext",
       "id": "custom_text",
       "label": "Custom Text"
     },
@@ -28,7 +28,7 @@
   <h2>{{ section.settings.custom_text }}</h2>
 
   <!-- Dynamic image -->
- 
+  {% if section.settings.custom_image %}
     <img src="{{ section.settings.custom_image | img_url: '500x' }}" alt="Custom Image">
- 
+  {% endif %}
 </div>
