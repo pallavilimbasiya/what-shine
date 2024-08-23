@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -18,6 +19,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -28,6 +30,7 @@
     },
     "bf726389-b3ad-4a2d-b368-b190b4f820d4": {
       "type": "custom-blog-slider",
+      "disabled": true,
       "settings": {
         "heading": "custom blog slider",
         "bg_colr": "#deebff",
@@ -37,8 +40,70 @@
     },
     "custom_section_tPhLrc": {
       "type": "custom-section",
+      "disabled": true,
       "settings": {
         "custom_text": "<p>{{ shop.brand.short_description }}{{ shop.brand.slogan }}<\/p>"
+      }
+    },
+    "collapsible_content_yW4eNH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_dkrgkb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_iBHEA6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_hYie8H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rqgP7B": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_dkrgkb",
+        "collapsible_row_iBHEA6",
+        "collapsible_row_hYie8H",
+        "collapsible_row_rqgP7B"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -46,6 +111,7 @@
     "main",
     "form",
     "bf726389-b3ad-4a2d-b368-b190b4f820d4",
-    "custom_section_tPhLrc"
+    "custom_section_tPhLrc",
+    "collapsible_content_yW4eNH"
   ]
 }
