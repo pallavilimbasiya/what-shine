@@ -114,7 +114,7 @@
   $("details").click(function() {
     $("details").removeAttr("open");
     $(this).attr("open");
-    if (this.hasAttribute("open")) {
+    if ($(this).attr('open')) {
     alert('yes')
   } else {
     alert('no')
