@@ -113,9 +113,10 @@
 <script>
   $("details").click(function() {
     // $("details").removeAttr("open");
-  var atttr = $(this).attr('open');
-    if (atttr) {
+  
+    if ($(this).attr('open')) {
    $(this).removeAttr("open");
+        $("details").removeAttr("open");
       alert("yes");
   } else {
        $("details").removeAttr("open");
