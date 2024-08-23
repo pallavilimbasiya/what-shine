@@ -53,7 +53,16 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nowadays, customer experience means more than just speed index of a website. Google announced Core Web Vitals metrics in early May 2020. According to Google,<em>Core Web Vitals are a set of real-world, user-centered metrics that quantify key aspects of the user experience.<\/em>The CLS and LCP play a major role in defining a better<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wtJgUp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>Nowadays, customer experience means more than just speed index of a website. Google announced Core Web Vitals metrics in early May 2020. According to Google,<em>Core Web Vitals are a set of real-world, user-centered metrics that quantify key aspects of the user experience.<\/em>The CLS and LCP play a major role in defining a better<\/p>",
             "page": ""
           }
         },
@@ -62,7 +71,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nowadays, customer experience means more than just speed index of a website. Google announced Core Web Vitals metrics in early May 2020. According to Google,<em>Core Web Vitals are a set of real-world, user-centered metrics that quantify key aspects of the user experience.<\/em>The CLS and LCP play a major role in defining a better<\/p>",
             "page": ""
           }
         },
@@ -71,7 +80,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nowadays, customer experience means more than just speed index of a website. Google announced Core Web Vitals metrics in early May 2020. According to Google,<em>Core Web Vitals are a set of real-world, user-centered metrics that quantify key aspects of the user experience.<\/em>The CLS and LCP play a major role in defining a better<\/p>",
             "page": ""
           }
         },
@@ -80,13 +89,14 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Nowadays, customer experience means more than just speed index of a website. Google announced Core Web Vitals metrics in early May 2020. According to Google,<em>Core Web Vitals are a set of real-world, user-centered metrics that quantify key aspects of the user experience.<\/em>The CLS and LCP play a major role in defining a better<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_dkrgkb",
+        "collapsible_row_wtJgUp",
         "collapsible_row_iBHEA6",
         "collapsible_row_hYie8H",
         "collapsible_row_rqgP7B"
