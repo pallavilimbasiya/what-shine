@@ -119,6 +119,31 @@
     },
     "do_dont_QhJYEg": {
       "type": "do-dont",
+      "blocks": {
+        "text_CdwaHi": {
+          "type": "text",
+          "settings": {
+            "do-text": "this is text from do block"
+          }
+        },
+        "text_AFDtGm": {
+          "type": "text",
+          "settings": {
+            "do-text": "this is an another block from do"
+          }
+        },
+        "quote_7QTB9U": {
+          "type": "quote",
+          "settings": {
+            "dont-text": "this is from don't block"
+          }
+        }
+      },
+      "block_order": [
+        "text_CdwaHi",
+        "text_AFDtGm",
+        "quote_7QTB9U"
+      ],
       "settings": {
       }
     }
