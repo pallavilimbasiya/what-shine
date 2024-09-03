@@ -1,17 +1,17 @@
 
 
-
-
-
-
-
-
-
-
-
-
 <div class="page-width">
   <h3 style="text-align: center">Do & Donts</h3>
+
+
+  {% for block in  section.blocks %}
+          {% if block.settings.do-text %}
+            <p>Do:{{ block.settings.do-text }}</p>
+            {% endif %}
+            {% if block.settings.dont-text %}
+              <p>Don't:{{ block.settings.dont-text }}</p>
+            {% endif %}
+  {% endfor %}
 </div>
 
 
