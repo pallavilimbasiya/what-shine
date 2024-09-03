@@ -101,6 +101,7 @@
         "collapsible_row_hYie8H",
         "collapsible_row_rqgP7B"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
@@ -115,6 +116,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "do_dont_QhJYEg": {
+      "type": "do-dont",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -122,6 +128,7 @@
     "form",
     "bf726389-b3ad-4a2d-b368-b190b4f820d4",
     "custom_section_tPhLrc",
-    "collapsible_content_yW4eNH"
+    "collapsible_content_yW4eNH",
+    "do_dont_QhJYEg"
   ]
 }
