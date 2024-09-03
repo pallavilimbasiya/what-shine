@@ -3,15 +3,20 @@
 <div class="page-width">
   <h3 style="text-align: center">Do & Donts</h3>
 
-
+ <div class="dodont_wrapper">
   {% for block in  section.blocks %}
+    <div class="do">
           {% if block.settings.do-text %}
             <p>Do:{{ block.settings.do-text }}</p>
             {% endif %}
+    </div>
+    <div class="dont">
             {% if block.settings.dont-text %}
               <p>Don't:{{ block.settings.dont-text }}</p>
             {% endif %}
+    </div>
   {% endfor %}
+ </div>
 </div>
 
 
