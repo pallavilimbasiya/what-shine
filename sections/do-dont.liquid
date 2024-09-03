@@ -14,16 +14,18 @@
 
  <div class="dodont_wrapper">
   {% for block in  section.blocks %}
+     {% if block.settings.do-text %}
     <div class="do">
-          {% if block.settings.do-text %}
+         
             <p>Do:{{ block.settings.do-text }}</p>
-            {% endif %}
-    </div>
+           
+    </div> {% endif %}
+    {% if block.settings.dont-text %}
     <div class="dont">
-            {% if block.settings.dont-text %}
+            
               <p>Don't:{{ block.settings.dont-text }}</p>
-            {% endif %}
-    </div>
+           
+    </div> {% endif %}
   {% endfor %}
  </div>
 </div>
