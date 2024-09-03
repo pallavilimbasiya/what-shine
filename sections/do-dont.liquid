@@ -20,16 +20,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 {% schema %}
   {
     "name": "do-donts",
@@ -40,10 +30,21 @@
         "name": "Do",
         "settings": [
             {
-              "type": "text",
+              "type": "inline_richtext",
               "id": "do-text",
               "label": "Do:"
             }
+        ]
+      },
+      {
+        "type": "inline_richtext",
+        "name": "Donts",
+        "settings": [
+          {
+            "type": "text",
+            "id": "dont-text",
+            "label": "Don't:"
+          }
         ]
       }
     ],
