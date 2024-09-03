@@ -23,7 +23,7 @@
     <div class="do">
        {% for block in  section.blocks %}
        {% if block.settings.do-text  %}
-            <p><b>Do:</b>{{ block.settings.do-text }}</p>
+            <p><b>Do: </b>{{ block.settings.do-text }}</p>
           {% endif %}
       {% endfor %}
     </div> 
@@ -32,7 +32,7 @@
     <div class="dont">
       {% for block in  section.blocks %}
        {% if  block.settings.dont-text %}
-              <p><b>Don't:</b>{{ block.settings.dont-text }}</p>
+              <p><b>Don't: </b>{{ block.settings.dont-text }}</p>
            {% endif %}
        {% endfor %}
     </div> 
