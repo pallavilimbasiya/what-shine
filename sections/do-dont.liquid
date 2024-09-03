@@ -19,14 +19,14 @@
 
  <div class="dodont_wrapper">
   {% for block in  section.blocks %}
-     {% if block.name == 'Do' %}
+     {% if block.type == 'Do' %}
     <div class="do">
          
             <p><b>Do:</b>{{ block.settings.do-text }}</p>
            
     </div> 
        {% endif %}
-    {% if block.name == "Donts" %}
+    {% if block.type == "Donts" %}
     <div class="dont">
             
               <p><b>Don't:</b>{{ block.settings.dont-text }}</p>
