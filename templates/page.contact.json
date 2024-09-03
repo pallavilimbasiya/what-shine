@@ -126,12 +126,6 @@
             "do-text": "this is text from do block"
           }
         },
-        "quote_fnPgDB": {
-          "type": "quote",
-          "settings": {
-            "dont-text": "another dont"
-          }
-        },
         "text_AFDtGm": {
           "type": "text",
           "settings": {
@@ -144,19 +138,18 @@
             "do-text": "from do"
           }
         },
-        "quote_7QTB9U": {
-          "type": "quote",
+        "slide_HEEzYx": {
+          "type": "slide",
           "settings": {
-            "dont-text": "this is from don't block"
+            "dont-text": "hello"
           }
         }
       },
       "block_order": [
         "text_CdwaHi",
-        "quote_fnPgDB",
         "text_AFDtGm",
         "text_qj3GHD",
-        "quote_7QTB9U"
+        "slide_HEEzYx"
       ],
       "settings": {
       }
