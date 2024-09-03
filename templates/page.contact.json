@@ -143,13 +143,20 @@
           "settings": {
             "do-text": "from do"
           }
+        },
+        "quote_fnPgDB": {
+          "type": "quote",
+          "settings": {
+            "dont-text": "another dont"
+          }
         }
       },
       "block_order": [
         "text_CdwaHi",
         "text_AFDtGm",
         "quote_7QTB9U",
-        "text_qj3GHD"
+        "text_qj3GHD",
+        "quote_fnPgDB"
       ],
       "settings": {
       }
