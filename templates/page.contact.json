@@ -137,12 +137,19 @@
           "settings": {
             "dont-text": "this is from don't block"
           }
+        },
+        "text_qj3GHD": {
+          "type": "text",
+          "settings": {
+            "do-text": "from do"
+          }
         }
       },
       "block_order": [
         "text_CdwaHi",
         "text_AFDtGm",
-        "quote_7QTB9U"
+        "quote_7QTB9U",
+        "text_qj3GHD"
       ],
       "settings": {
       }
