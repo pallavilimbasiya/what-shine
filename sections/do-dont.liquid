@@ -19,19 +19,19 @@
 
  <div class="dodont_wrapper">
   {% for block in  section.blocks %}
-     {% if block.type == 'text' %}
+    
     <div class="do">
-         
+          {% if block.type == 'text' %}
             <p><b>Do:</b>{{ block.settings.do-text }}</p>
-           
+            {% endif %}
     </div> 
-       {% endif %}
-    {% if block.type == "quote" %}
+      
+ 
     <div class="dont">
-            
+               {% if block.type == "quote" %}
               <p><b>Don't:</b>{{ block.settings.dont-text }}</p>
-           
-    </div> {% endif %}
+           {% endif %}
+    </div> 
   {% endfor %}
  </div>
 </div>
